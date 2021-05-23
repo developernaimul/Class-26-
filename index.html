@@ -1,0 +1,121 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- <link rel="apple-touch-icon" href="icon.png"> -->
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="theme-color" content="#fafafa">
+  <!-- [if lt IE 9]>
+	<script src="./js/html5shiv.min.js"></script>
+  <![endif] -->
+
+</head>
+
+<body>
+
+  <!------------ START HEADER AREA ------------>
+  <header>
+      <div class="fixdwidth clearfix">
+          <div class="logo fleft">
+              <a href="#">
+                  <span>LOGO</span>
+              </a>
+          </div>
+          <nav class="menu fright">
+              <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Features</a></li>
+                  <li><a href="#">Page</a></li>
+                  <li><a href="#">Portfolio</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact Us</a></li>
+              </ul>
+          </nav>
+      </div>
+  </header>
+  <!------------ END HEADER AREA ------------>
+  <!------------ START HEADER SECTION ------------>
+  <section class="banner text-center" id="banner">
+      <div class="fixdwidth">
+          <h1>Work Hard</h1>
+          <span>Drem Big</span>
+          <div class="banner-btn">
+              <a href="#">Get Started</a>
+          </div>
+      </div>
+  </section>
+  <!------------ END HEADER SECTION ------------>
+  <!------------ START FEATURES SECTION ------------>
+  <section class="features section clearfix" id="features">
+      <div class="fixdwidth">
+          <aside>
+            <video width="400" height="250" controls>
+              <source src="video/ওগো মা.mp4" type="video/mp4">
+              <source src="video/ওগো মা.ogg" type="video/ogg">
+            </video>
+          </aside>
+          <article>
+            <h2>Most Popular LFWF</h2>
+            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, iusto!</P>
+            <h2>Online Students</h2>
+            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, iusto!</P>
+            <h2>All Student</h2>
+            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, iusto!</P>
+          </article>
+      </div>
+  </section>
+  <!------------ END FEATURES SECTION ------------>
+  <!------------ START CONTACT SECTION ------------>
+  <section class="contact section clearfix" id="contact">
+      <div class="fixdwidth">
+          <h1 class="text-center">Contact Us</h1>
+          <div class="contact-details fleft">
+              <details>
+                <summary>Address</summary>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, ipsa amet ex quaerat excepturi odio facilis provident, tenetur ea doloremque delectus a ab, architecto blanditiis maiores voluptatem molestias sunt recusandae!</p>
+              </details>
+          </div>
+          <div class="contact-form fright">
+              <form action="#">
+                  <input type="text" class="input-control" placeholder="Type Your Name">
+                  <input type="email" class="input-control" placeholder="Enter Your E-mail">
+                  <input type="date" class="input-control" value="mm/dd/yyy">
+                  <button class="submit-btn" type="button">Submit</button>
+              </form>
+          </div>
+      </div>
+  </section>
+  <!------------ END CONTACT SECTION ------------>
+  <!------------ START FOOTER SECTION ------------>
+  <footer>
+      <div class="fixdwidth">
+          <p class="text-center">Copyright &copy;2021 Design By Developer Naimul</p>
+      </div>
+  </footer>
+  <!------------ END FOOTER SECTION ------------>
+  
+  <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+    })
+  </script>
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
